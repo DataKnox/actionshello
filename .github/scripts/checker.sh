@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "Testing for Buttons component"
 if test -f "$FILE"
 then 
