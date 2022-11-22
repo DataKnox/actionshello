@@ -1,6 +1,4 @@
-name: Hello Worl
+name: Hello World
 on:
   pull_request:
-    types: opened
-    branhces:
-      - main
+    types: [opened]
