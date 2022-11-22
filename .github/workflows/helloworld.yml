@@ -18,10 +18,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@2
         with:
-          fetch-depth: 0 # Let's get all the branches
+          fetch-depth: 0
       - name: Check for Buttons
         run: ./.github/scripts/checker.sh
         env:
