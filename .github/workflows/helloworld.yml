@@ -2,3 +2,5 @@ name: Hello Worl
 on:
   pull_request:
     types: opened
+    branhces:
+      - main
